@@ -1,5 +1,6 @@
 import "./App.scss";
 import Routing from "../routing/Routing";
+import { Footer } from "@widgets/Footer";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <main className="routing">
           <Routing />
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
