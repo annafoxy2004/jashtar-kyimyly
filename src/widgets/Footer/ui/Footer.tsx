@@ -12,7 +12,7 @@ export const Footer: FC = () => {
           <div className={styles.brandInfo}>
             <img src={logo} alt="Логотип" className={styles.logo} />
             <Typography variant="bodyText" color="white" className={styles.copyright}>
-              © 2025 All rights reserved.
+              © 2025 All rights reserved. 
             </Typography>
             <Typography variant="caption" color="white" className={styles.policyLinks}>
               <a href="/privacy-policy">Privacy Policy</a> |{" "}
