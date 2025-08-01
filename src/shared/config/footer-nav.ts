@@ -1,4 +1,3 @@
-// src/shared/config/footer-nav.ts
 
 interface FooterLink {
     title: string;

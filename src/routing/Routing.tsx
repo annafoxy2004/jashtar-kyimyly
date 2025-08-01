@@ -1,6 +1,8 @@
 import { Route, Routes, Navigate } from "react-router-dom";
 import MainPage from "../pages/MainPage";
 import ActivitiesPage from "@pages/ActivitiesPage/ui/ActivitiesPage";
+import { MovementPages } from "@pages/Movement/ui/MovementPages";
+
 
 export default function Routing() {
 //   const accessToken = localStorage.getItem("accessToken");
@@ -8,6 +10,7 @@ export default function Routing() {
   const PUBLIC_PAGES = [
     { link: "/", page: <MainPage />, id: 1 },
     { link: "activitiesPage", page: <ActivitiesPage />, id: 2 },
+    { link: "movementpages", page: <MovementPages />, id: 2 },
     // { link: "/about-motion", page: <AboutUsPage />, id: 2 },
 
     // { link: "/directions", page: <NewsPage />, id: 3 },

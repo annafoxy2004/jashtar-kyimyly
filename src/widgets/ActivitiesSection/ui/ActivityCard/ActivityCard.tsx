@@ -17,7 +17,7 @@ const ActivityCard: React.FC<ActivityCardProps> = ({ title, description, imageSr
     boxSizing: 'border-box',
     background: `linear-gradient(to left, rgba(0, 0, 0, 0) 0%, ${bgColor} 43%), var(--background-image-url) no-repeat right bottom / auto 100%`,
   } as React.CSSProperties;
-
+  
   return (
     <div className={clsx(styles.activityCard)} style={cardStyle}>
       <div className={styles.content}>

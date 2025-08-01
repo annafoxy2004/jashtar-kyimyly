@@ -38,6 +38,16 @@ export const Footer: FC = () => {
               </div>
             ))}
           </nav>
+          <div className={styles.brandInfo1}>
+            <Typography variant="bodyText" color="white" className={styles.copyright1}>
+              © 2025 All rights reserved.
+            </Typography>
+            <Typography variant="caption" color="white" className={styles.policyLinks1}>
+              <a href="/privacy-policy">Privacy Policy</a> |{" "}
+              <a href="/terms-of-service">Terms of Service</a> |{" "}
+              <a href="/cookies">Cookies Settings</a>
+            </Typography>
+          </div>
         </div>
       </MultiContainer>
     </footer>
