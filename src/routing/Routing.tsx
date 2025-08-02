@@ -11,6 +11,7 @@ export default function Routing() {
     { link: "/", page: <MainPage />, id: 1 },
     { link: "activitiesPage", page: <ActivitiesPage />, id: 2 },
     { link: "movementpages", page: <MovementPages />, id: 2 },
+
     // { link: "/about-motion", page: <AboutUsPage />, id: 2 },
 
     // { link: "/directions", page: <NewsPage />, id: 3 },
