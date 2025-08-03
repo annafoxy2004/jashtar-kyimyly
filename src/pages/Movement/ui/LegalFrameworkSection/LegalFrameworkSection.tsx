@@ -1,8 +1,9 @@
-//LegalFrameworkSection//                                                                                                                             import type { FC } from "react"; 
-import { MultiContainer, Typography } from "@shared/ui";
+
+import { MultiContainer, Typography } from "@/shared/ui";
 import styles from "./LegalFrameworkSection.module.scss";
-import CalendarIcon from "@shared/assets/images/Legalframeworksection1.svg";
+import CalendarIcon from "@/shared/assets/images/Legalframeworksection1.svg";
 import { FC } from "react";
+
 
 export const LegalFrameworkSection: FC = () => {
   const laws = [

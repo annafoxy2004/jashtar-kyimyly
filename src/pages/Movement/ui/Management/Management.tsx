@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import styles from './Management.module.scss';
-import { MultiContainer, Typography } from '@shared/ui';
+import { MultiContainer, Typography } from '@/shared/ui';
 
 const person1 = 'https://picsum.photos/400/500';
 const person2 = 'https://picsum.photos/400/501';

@@ -1,8 +1,10 @@
 import type { FC } from "react";
 import styles from "./Footer.module.scss";
-import logo from "@shared/assets/images/logo.png";
-import { FOOTER_SECTIONS } from "@shared/config/footer-nav";
-import { Typography, MultiContainer } from "@shared/ui";
+// import logo from "shared/assets/images/logo.png";
+import logo from "@/shared/assets/images/logo.png";
+import { MultiContainer, Typography } from "@/shared/ui";
+import { FOOTER_SECTIONS } from "@/shared/config/footer-nav";
+
 
 export const Footer: FC = () => {
   return (
@@ -11,10 +13,18 @@ export const Footer: FC = () => {
         <div className={styles.footerContent}>
           <div className={styles.brandInfo}>
             <img src={logo} alt="Логотип" className={styles.logo} />
-            <Typography variant="bodyText" color="white" className={styles.copyright}>
-              © 2025 All rights reserved. 
+            <Typography
+              variant="bodyText"
+              color="white"
+              className={styles.copyright}
+            >
+              © 2025 All rights reserved.
             </Typography>
-            <Typography variant="caption" color="white" className={styles.policyLinks}>
+            <Typography
+              variant="caption"
+              color="white"
+              className={styles.policyLinks}
+            >
               <a href="/privacy-policy">Privacy Policy</a> |{" "}
               <a href="/terms-of-service">Terms of Service</a> |{" "}
               <a href="/cookies">Cookies Settings</a>
@@ -39,10 +49,18 @@ export const Footer: FC = () => {
             ))}
           </nav>
           <div className={styles.brandInfo1}>
-            <Typography variant="bodyText" color="white" className={styles.copyright1}>
+            <Typography
+              variant="bodyText"
+              color="white"
+              className={styles.copyright1}
+            >
               © 2025 All rights reserved.
             </Typography>
-            <Typography variant="caption" color="white" className={styles.policyLinks1}>
+            <Typography
+              variant="caption"
+              color="white"
+              className={styles.policyLinks1}
+            >
               <a href="/privacy-policy">Privacy Policy</a> |{" "}
               <a href="/terms-of-service">Terms of Service</a> |{" "}
               <a href="/cookies">Cookies Settings</a>

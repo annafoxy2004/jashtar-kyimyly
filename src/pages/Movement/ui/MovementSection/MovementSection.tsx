@@ -1,8 +1,8 @@
 import type { FC } from 'react';
 import styles from './MovementSection.module.scss';
-import { MultiContainer, Typography } from '@shared/ui';
-import movementsection from '@shared/assets/images/movementsection.png'
-import movementsection1 from '@shared/assets/images/movementsection1.png'
+import movementsection from '@/shared/assets/images/movementsection.png'
+import movementsection1 from '@/shared/assets/images/movementsection1.png'
+import { MultiContainer, Typography } from '@/shared/ui';
 
 export const MovementSection: FC = () => {
   return (

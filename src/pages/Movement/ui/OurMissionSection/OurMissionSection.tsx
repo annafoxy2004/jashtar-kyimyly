@@ -1,12 +1,12 @@
 
 import styles from './OurMissionSection.module.scss';
-import { MultiContainer, Typography } from '@shared/ui';  
-import movementsection2 from '@shared/assets/images/movementsection2.svg'
-import movementsection3 from '@shared/assets/images/movementsection3.svg'
-import movementsection4 from '@shared/assets/images/movementsection4.svg'
-import movementsection5 from '@shared/assets/images/movementsection5.svg'
-import movementsection6 from '@shared/assets/images/movementsection6.svg'
+import movementsection2 from '../../../../shared/assets/images/movementsection2.svg'
+import movementsection3 from '../../../../shared/assets/images/movementsection3.svg'
+import movementsection4 from '../../../../shared/assets/images/movementsection4.svg'
+import movementsection5 from '../../../../shared/assets/images/movementsection5.svg'
+import movementsection6 from '../../../../shared/assets/images/movementsection6.svg'
 import { FC } from 'react';
+import { MultiContainer, Typography } from '@/shared/ui';
 
 
 export const OurMissionSection: FC = () => {
