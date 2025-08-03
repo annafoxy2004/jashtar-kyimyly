@@ -1,11 +1,16 @@
-import { Route, Routes, Navigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import MainPage from "../pages/MainPage";
+import ActivitiesPage from "../pages/ActivitiesPage/ui/ActivitiesPage";
+import { MovementPages } from "../pages/Movement/ui/MovementPages";
 
 export default function Routing() {
-//   const accessToken = localStorage.getItem("accessToken");
+  //   const accessToken = localStorage.getItem("accessToken");
 
   const PUBLIC_PAGES = [
     { link: "/", page: <MainPage />, id: 1 },
+    { link: "activitiesPage", page: <ActivitiesPage />, id: 2 },
+    { link: "movementpages", page: <MovementPages />, id: 3 },
+
     // { link: "/about-motion", page: <AboutUsPage />, id: 2 },
 
     // { link: "/directions", page: <NewsPage />, id: 3 },
@@ -17,7 +22,6 @@ export default function Routing() {
     // { link: "/reg-departments", page: <FAQPage />, id: 5 },
     // { link: "/signup", page: <SignUpPage />, id: 6 },
     // { link: "/login", page: <LoginPage />, id: 7 },
-
   ];
 
   return (
