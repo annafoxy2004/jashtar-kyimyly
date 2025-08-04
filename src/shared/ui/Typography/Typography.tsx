@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 
 interface TypographyProps {
   children: ReactNode;
-  variant: "bodyText" | "caption" | "h6";
+   variant: "bodyText" | "caption" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
   color: string;
   className?: string;
 }
